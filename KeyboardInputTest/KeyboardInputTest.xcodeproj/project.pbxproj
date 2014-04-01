@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D205A9161726DED200A2FCF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D205A9151726DED200A2FCF6 /* UIKit.framework */; };
+		D205A9181726DED200A2FCF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D205A9171726DED200A2FCF6 /* Foundation.framework */; };
+		D205A91A1726DED200A2FCF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D205A9191726DED200A2FCF6 /* CoreGraphics.framework */; };
+		D205A9201726DED200A2FCF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D205A91E1726DED200A2FCF6 /* InfoPlist.strings */; };
+		D205A9221726DED300A2FCF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D205A9211726DED300A2FCF6 /* main.m */; };
+		D205A9261726DED300A2FCF6 /* KeyboardInputTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D205A9251726DED300A2FCF6 /* KeyboardInputTestAppDelegate.m */; };
+		D205A9281726DED300A2FCF6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D205A9271726DED300A2FCF6 /* Default.png */; };
+		D205A92A1726DED300A2FCF6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D205A9291726DED300A2FCF6 /* Default@2x.png */; };
+		D205A92C1726DED300A2FCF6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D205A92B1726DED300A2FCF6 /* Default-568h@2x.png */; };
+		D205A92F1726DED300A2FCF6 /* KeyboardInputTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D205A92E1726DED300A2FCF6 /* KeyboardInputTestViewController.m */; };
+		D205A9321726DED300A2FCF6 /* KeyboardInputTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D205A9301726DED300A2FCF6 /* KeyboardInputTestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D205A9121726DED200A2FCF6 /* KeyboardInputTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardInputTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D205A9151726DED200A2FCF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D205A9171726DED200A2FCF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D205A9191726DED200A2FCF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D205A91D1726DED200A2FCF6 /* KeyboardInputTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyboardInputTest-Info.plist"; sourceTree = "<group>"; };
+		D205A91F1726DED200A2FCF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D205A9211726DED300A2FCF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D205A9231726DED300A2FCF6 /* KeyboardInputTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyboardInputTest-Prefix.pch"; sourceTree = "<group>"; };
+		D205A9241726DED300A2FCF6 /* KeyboardInputTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardInputTestAppDelegate.h; sourceTree = "<group>"; };
+		D205A9251726DED300A2FCF6 /* KeyboardInputTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardInputTestAppDelegate.m; sourceTree = "<group>"; };
+		D205A9271726DED300A2FCF6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D205A9291726DED300A2FCF6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D205A92B1726DED300A2FCF6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D205A92D1726DED300A2FCF6 /* KeyboardInputTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardInputTestViewController.h; sourceTree = "<group>"; };
+		D205A92E1726DED300A2FCF6 /* KeyboardInputTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardInputTestViewController.m; sourceTree = "<group>"; };
+		D205A9311726DED300A2FCF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KeyboardInputTestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D205A90F1726DED200A2FCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D205A9161726DED200A2FCF6 /* UIKit.framework in Frameworks */,
+				D205A9181726DED200A2FCF6 /* Foundation.framework in Frameworks */,
+				D205A91A1726DED200A2FCF6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D205A9091726DED200A2FCF6 = {
+			isa = PBXGroup;
+			children = (
+				D205A91B1726DED200A2FCF6 /* KeyboardInputTest */,
+				D205A9141726DED200A2FCF6 /* Frameworks */,
+				D205A9131726DED200A2FCF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D205A9131726DED200A2FCF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D205A9121726DED200A2FCF6 /* KeyboardInputTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D205A9141726DED200A2FCF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D205A9151726DED200A2FCF6 /* UIKit.framework */,
+				D205A9171726DED200A2FCF6 /* Foundation.framework */,
+				D205A9191726DED200A2FCF6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D205A91B1726DED200A2FCF6 /* KeyboardInputTest */ = {
+			isa = PBXGroup;
+			children = (
+				D205A9241726DED300A2FCF6 /* KeyboardInputTestAppDelegate.h */,
+				D205A9251726DED300A2FCF6 /* KeyboardInputTestAppDelegate.m */,
+				D205A92D1726DED300A2FCF6 /* KeyboardInputTestViewController.h */,
+				D205A92E1726DED300A2FCF6 /* KeyboardInputTestViewController.m */,
+				D205A9301726DED300A2FCF6 /* KeyboardInputTestViewController.xib */,
+				D205A91C1726DED200A2FCF6 /* Supporting Files */,
+			);
+			path = KeyboardInputTest;
+			sourceTree = "<group>";
+		};
+		D205A91C1726DED200A2FCF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D205A91D1726DED200A2FCF6 /* KeyboardInputTest-Info.plist */,
+				D205A91E1726DED200A2FCF6 /* InfoPlist.strings */,
+				D205A9211726DED300A2FCF6 /* main.m */,
+				D205A9231726DED300A2FCF6 /* KeyboardInputTest-Prefix.pch */,
+				D205A9271726DED300A2FCF6 /* Default.png */,
+				D205A9291726DED300A2FCF6 /* Default@2x.png */,
+				D205A92B1726DED300A2FCF6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D205A9111726DED200A2FCF6 /* KeyboardInputTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D205A9351726DED300A2FCF6 /* Build configuration list for PBXNativeTarget "KeyboardInputTest" */;
+			buildPhases = (
+				D205A90E1726DED200A2FCF6 /* Sources */,
+				D205A90F1726DED200A2FCF6 /* Frameworks */,
+				D205A9101726DED200A2FCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardInputTest;
+			productName = KeyboardInputTest;
+			productReference = D205A9121726DED200A2FCF6 /* KeyboardInputTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D205A90A1726DED200A2FCF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KeyboardInputTest;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "조영일";
+			};
+			buildConfigurationList = D205A90D1726DED200A2FCF6 /* Build configuration list for PBXProject "KeyboardInputTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D205A9091726DED200A2FCF6;
+			productRefGroup = D205A9131726DED200A2FCF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D205A9111726DED200A2FCF6 /* KeyboardInputTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D205A9101726DED200A2FCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D205A9201726DED200A2FCF6 /* InfoPlist.strings in Resources */,
+				D205A9281726DED300A2FCF6 /* Default.png in Resources */,
+				D205A92A1726DED300A2FCF6 /* Default@2x.png in Resources */,
+				D205A92C1726DED300A2FCF6 /* Default-568h@2x.png in Resources */,
+				D205A9321726DED300A2FCF6 /* KeyboardInputTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D205A90E1726DED200A2FCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D205A9221726DED300A2FCF6 /* main.m in Sources */,
+				D205A9261726DED300A2FCF6 /* KeyboardInputTestAppDelegate.m in Sources */,
+				D205A92F1726DED300A2FCF6 /* KeyboardInputTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D205A91E1726DED200A2FCF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D205A91F1726DED200A2FCF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D205A9301726DED300A2FCF6 /* KeyboardInputTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D205A9311726DED300A2FCF6 /* en */,
+			);
+			name = KeyboardInputTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D205A9331726DED300A2FCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D205A9341726DED300A2FCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D205A9361726DED300A2FCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardInputTest/KeyboardInputTest-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardInputTest/KeyboardInputTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D205A9371726DED300A2FCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardInputTest/KeyboardInputTest-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardInputTest/KeyboardInputTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D205A90D1726DED200A2FCF6 /* Build configuration list for PBXProject "KeyboardInputTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D205A9331726DED300A2FCF6 /* Debug */,
+				D205A9341726DED300A2FCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D205A9351726DED300A2FCF6 /* Build configuration list for PBXNativeTarget "KeyboardInputTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D205A9361726DED300A2FCF6 /* Debug */,
+				D205A9371726DED300A2FCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D205A90A1726DED200A2FCF6 /* Project object */;
+}
